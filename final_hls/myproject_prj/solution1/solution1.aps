@@ -1,0 +1,24 @@
+<AutoPilot:solution xmlns:AutoPilot="com.autoesl.autopilot.solution">
+    <config>
+        <config_compile name_max_length="80" complex-mul-dsp="0"/>
+        <config_schedule enable_dsp_full_reg="0"/>
+        <config_export format="ip_catalog"/>
+    </config>
+    <clockList>
+        <clock default="false" name="default" uncertainty="27%" period="20"/>
+    </clockList>
+    <name>
+        <value string="solution1"/>
+    </name>
+    <project>
+        <value string="myproject_prj"/>
+    </project>
+    <targetInfo>
+        <TargetInfo value="xc7z020:-clg400:-1"/>
+    </targetInfo>
+    <libraryList>
+        <library value="xilinx/zynq/zynq" name="DefaultPlatform"/>
+    </libraryList>
+    <flowTarget value="vivado"/>
+</AutoPilot:solution>
+

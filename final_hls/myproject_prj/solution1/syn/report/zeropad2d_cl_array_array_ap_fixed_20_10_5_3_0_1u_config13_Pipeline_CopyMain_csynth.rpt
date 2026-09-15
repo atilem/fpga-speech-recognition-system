@@ -1,0 +1,148 @@
+
+
+================================================================
+== Vitis HLS Report for 'zeropad2d_cl_array_array_ap_fixed_20_10_5_3_0_1u_config13_Pipeline_CopyMain'
+================================================================
+* Date:           Sun Aug 30 16:00:22 2026
+
+* Version:        2024.1 (Build 5069499 on May 21 2024)
+* Project:        myproject_prj
+* Solution:       solution1 (Vivado IP Flow Target)
+* Product family: zynq
+* Target device:  xc7z020-clg400-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  |  20.00 ns|  5.046 ns|     5.40 ns|
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+-----+-----+-----------------------------------------------+
+    |  Latency (cycles) |  Latency (absolute) |  Interval |                    Pipeline                   |
+    |   min   |   max   |    min   |    max   | min | max |                      Type                     |
+    +---------+---------+----------+----------+-----+-----+-----------------------------------------------+
+    |      103|      103|  2.060 us|  2.060 us|  102|  102|  loop auto-rewind stp(delay=0 clock cycles(s))|
+    +---------+---------+----------+----------+-----+-----+-----------------------------------------------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        +------------+---------+---------+----------+-----------+-----------+------+----------+
+        |            |  Latency (cycles) | Iteration|  Initiation Interval  | Trip |          |
+        |  Loop Name |   min   |   max   |  Latency |  achieved |   target  | Count| Pipelined|
+        +------------+---------+---------+----------+-----------+-----------+------+----------+
+        |- CopyMain  |      101|      101|         2|          1|          1|   101|       yes|
+        +------------+---------+---------+----------+-----------+-----------+------+----------+
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++-----------------+---------+-----+--------+-------+-----+
+|       Name      | BRAM_18K| DSP |   FF   |  LUT  | URAM|
++-----------------+---------+-----+--------+-------+-----+
+|DSP              |        -|    -|       -|      -|    -|
+|Expression       |        -|    -|       0|     34|    -|
+|FIFO             |        -|    -|       -|      -|    -|
+|Instance         |        -|    -|       -|      -|    -|
+|Memory           |        -|    -|       -|      -|    -|
+|Multiplexer      |        -|    -|       0|     54|    -|
+|Register         |        -|    -|      30|      -|    -|
++-----------------+---------+-----+--------+-------+-----+
+|Total            |        0|    0|      30|     88|    0|
++-----------------+---------+-----+--------+-------+-----+
+|Available        |      280|  220|  106400|  53200|    0|
++-----------------+---------+-----+--------+-------+-----+
+|Utilization (%)  |        0|    0|      ~0|     ~0|    0|
++-----------------+---------+-----+--------+-------+-----+
+
++ Detail: 
+    * Instance: 
+    N/A
+
+    * DSP: 
+    N/A
+
+    * Memory: 
+    N/A
+
+    * FIFO: 
+    N/A
+
+    * Expression: 
+    +----------------------------------+----------+----+---+----+------------+------------+
+    |           Variable Name          | Operation| DSP| FF| LUT| Bitwidth P0| Bitwidth P1|
+    +----------------------------------+----------+----+---+----+------------+------------+
+    |j_2_fu_71_p2                      |         +|   0|  0|  14|           7|           1|
+    |ap_block_state1_pp0_stage0_iter0  |       and|   0|  0|   2|           1|           1|
+    |icmp_ln65_fu_65_p2                |      icmp|   0|  0|  14|           7|           6|
+    |ap_block_pp0_stage0_01001         |        or|   0|  0|   2|           1|           1|
+    |ap_enable_pp0                     |       xor|   0|  0|   2|           1|           2|
+    +----------------------------------+----------+----+---+----+------------+------------+
+    |Total                             |          |   0|  0|  34|          17|          11|
+    +----------------------------------+----------+----+---+----+------------+------------+
+
+    * Multiplexer: 
+    +-------------------------+----+-----------+-----+-----------+
+    |           Name          | LUT| Input Size| Bits| Total Bits|
+    +-------------------------+----+-----------+-----+-----------+
+    |ap_done_int              |   9|          2|    1|          2|
+    |ap_enable_reg_pp0_iter1  |   9|          2|    1|          2|
+    |ap_sig_allocacmp_j_1     |   9|          2|    7|         14|
+    |j_fu_40                  |   9|          2|    7|         14|
+    |layer13_out_blk_n        |   9|          2|    1|          2|
+    |mfcc_input_TDATA_blk_n   |   9|          2|    1|          2|
+    +-------------------------+----+-----------+-----+-----------+
+    |Total                    |  54|         12|   18|         36|
+    +-------------------------+----+-----------+-----+-----------+
+
+    * Register: 
+    +-------------------------+----+----+-----+-----------+
+    |           Name          | FF | LUT| Bits| Const Bits|
+    +-------------------------+----+----+-----+-----------+
+    |ap_CS_fsm                |   1|   0|    1|          0|
+    |ap_done_reg              |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter1  |   1|   0|    1|          0|
+    |j_fu_40                  |   7|   0|    7|          0|
+    |trunc_ln26_reg_96        |  20|   0|   20|          0|
+    +-------------------------+----+----+-----+-----------+
+    |Total                    |  30|   0|   30|          0|
+    +-------------------------+----+----+-----+-----------+
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
++----------------------------+-----+-----+------------+--------------------------------------------------------------------------------+--------------+
+|          RTL Ports         | Dir | Bits|  Protocol  |                                  Source Object                                 |    C Type    |
++----------------------------+-----+-----+------------+--------------------------------------------------------------------------------+--------------+
+|ap_clk                      |   in|    1|  ap_ctrl_hs|  zeropad2d_cl<array,array<ap_fixed<20,10,5,3,0>,1u>,config13>_Pipeline_CopyMain|  return value|
+|ap_rst                      |   in|    1|  ap_ctrl_hs|  zeropad2d_cl<array,array<ap_fixed<20,10,5,3,0>,1u>,config13>_Pipeline_CopyMain|  return value|
+|ap_start                    |   in|    1|  ap_ctrl_hs|  zeropad2d_cl<array,array<ap_fixed<20,10,5,3,0>,1u>,config13>_Pipeline_CopyMain|  return value|
+|ap_done                     |  out|    1|  ap_ctrl_hs|  zeropad2d_cl<array,array<ap_fixed<20,10,5,3,0>,1u>,config13>_Pipeline_CopyMain|  return value|
+|ap_idle                     |  out|    1|  ap_ctrl_hs|  zeropad2d_cl<array,array<ap_fixed<20,10,5,3,0>,1u>,config13>_Pipeline_CopyMain|  return value|
+|ap_ready                    |  out|    1|  ap_ctrl_hs|  zeropad2d_cl<array,array<ap_fixed<20,10,5,3,0>,1u>,config13>_Pipeline_CopyMain|  return value|
+|mfcc_input_TVALID           |   in|    1|        axis|                                                                      mfcc_input|       pointer|
+|mfcc_input_TDATA            |   in|   32|        axis|                                                                      mfcc_input|       pointer|
+|mfcc_input_TREADY           |  out|    1|        axis|                                                                      mfcc_input|       pointer|
+|layer13_out_din             |  out|   20|     ap_fifo|                                                                     layer13_out|       pointer|
+|layer13_out_num_data_valid  |   in|   14|     ap_fifo|                                                                     layer13_out|       pointer|
+|layer13_out_fifo_cap        |   in|   14|     ap_fifo|                                                                     layer13_out|       pointer|
+|layer13_out_full_n          |   in|    1|     ap_fifo|                                                                     layer13_out|       pointer|
+|layer13_out_write           |  out|    1|     ap_fifo|                                                                     layer13_out|       pointer|
++----------------------------+-----+-----+------------+--------------------------------------------------------------------------------+--------------+
+

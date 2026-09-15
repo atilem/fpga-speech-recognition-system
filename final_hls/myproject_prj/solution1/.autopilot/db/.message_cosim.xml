@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Messages>
+	<Message severity="INFO" prefix="[Common 17-41]" key="Common 17-41" tag="" content="Interrupt caught. Command should exit soon." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-2161]" key="HLS 200-2161" tag="" content="Finished Command cosim_design Elapsed time: 00:00:04; Allocated memory: 3.746 MB." resolution=""/>
+	<Message severity="INFO" prefix="[Common 17-344]" key="Common 17-344" tag="" content="&apos;source&apos; was cancelled" resolution=""/>
+</Messages>

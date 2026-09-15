@@ -1,0 +1,138 @@
+<stg><name>Block_entry.split.split.split.split.split.split.split.split.split.split.split.sp</name>
+
+
+<trans_list>
+
+<trans id="10" from="1" to="2">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+</trans_list>
+
+
+
+<state_list>
+
+<state id="1" st_id="1">
+
+<operation id="3" st_id="1" stage="1" lat="1">
+<core>FIFO_SRL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="9" bw="168" op_0_bw="168" op_1_bw="168">
+<![CDATA[
+newFuncRoot:3 %packed_data = read i168 @_ssdm_op_Read.ap_fifo.volatile.i168P0A, i168 %local_output
+
+]]></Node>
+<StgValue><ssdm name="packed_data"/></StgValue>
+</operation>
+
+<operation id="4" st_id="1" stage="2" lat="2">
+<core>regslice</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="10" bw="0" op_0_bw="0" op_1_bw="168" op_2_bw="21" op_3_bw="21" op_4_bw="1" op_5_bw="168" op_6_bw="21" op_7_bw="21" op_8_bw="1">
+<![CDATA[
+newFuncRoot:4 %write_ln115 = write void @_ssdm_op_Write.axis.volatile.i168P0A.i21P0A.i21P0A.i1P0A, i168 %layer12_out_V_data_V, i21 %layer12_out_V_keep_V, i21 %layer12_out_V_strb_V, i1 %layer12_out_V_last_V, i168 %packed_data, i21 2097151, i21 0, i1 1
+
+]]></Node>
+<StgValue><ssdm name="write_ln115"/></StgValue>
+</operation>
+</state>
+
+<state id="2" st_id="2">
+
+<operation id="5" st_id="2" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="6" bw="0" op_0_bw="0" op_1_bw="168" op_2_bw="21" op_3_bw="21" op_4_bw="1" op_5_bw="1" op_6_bw="1" op_7_bw="1" op_8_bw="0">
+<![CDATA[
+newFuncRoot:0 %specaxissidechannel_ln0 = specaxissidechannel void @_ssdm_op_SpecAXISSideChannel, i168 %layer12_out_V_data_V, i21 %layer12_out_V_keep_V, i21 %layer12_out_V_strb_V, i1 0, i1 %layer12_out_V_last_V, i1 0, i1 0, void @empty_14
+
+]]></Node>
+<StgValue><ssdm name="specaxissidechannel_ln0"/></StgValue>
+</operation>
+
+<operation id="6" st_id="2" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="7" bw="0" op_0_bw="0" op_1_bw="168" op_2_bw="0" op_3_bw="32" op_4_bw="32" op_5_bw="0" op_6_bw="32" op_7_bw="32" op_8_bw="0" op_9_bw="0" op_10_bw="0" op_11_bw="32" op_12_bw="32" op_13_bw="32" op_14_bw="32" op_15_bw="0" op_16_bw="0" op_17_bw="32" op_18_bw="32" op_19_bw="32">
+<![CDATA[
+newFuncRoot:1 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i168 %local_output, void @empty_6, i32 0, i32 0, void @empty_5, i32 0, i32 0, void @empty_5, void @empty_5, void @empty_5, i32 0, i32 0, i32 0, i32 0, void @empty_5, void @empty_5, i32 4294967295, i32 0, i32 0
+
+]]></Node>
+<StgValue><ssdm name="specinterface_ln0"/></StgValue>
+</operation>
+
+<operation id="7" st_id="2" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="8" bw="0" op_0_bw="0" op_1_bw="1" op_2_bw="21" op_3_bw="21" op_4_bw="168" op_5_bw="0" op_6_bw="32" op_7_bw="32" op_8_bw="0" op_9_bw="32" op_10_bw="32" op_11_bw="0" op_12_bw="0" op_13_bw="0" op_14_bw="32" op_15_bw="32" op_16_bw="32" op_17_bw="32" op_18_bw="0" op_19_bw="0" op_20_bw="32" op_21_bw="32" op_22_bw="32">
+<![CDATA[
+newFuncRoot:2 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i1 %layer12_out_V_last_V, i21 %layer12_out_V_strb_V, i21 %layer12_out_V_keep_V, i168 %layer12_out_V_data_V, void @empty_13, i32 1, i32 1, void @empty_1, i32 0, i32 0, void @empty_5, void @empty_5, void @empty_5, i32 0, i32 0, i32 0, i32 0, void @empty_5, void @empty_5, i32 4294967295, i32 0, i32 0
+
+]]></Node>
+<StgValue><ssdm name="specinterface_ln0"/></StgValue>
+</operation>
+
+<operation id="8" st_id="2" stage="1" lat="2">
+<core>regslice</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="10" bw="0" op_0_bw="0" op_1_bw="168" op_2_bw="21" op_3_bw="21" op_4_bw="1" op_5_bw="168" op_6_bw="21" op_7_bw="21" op_8_bw="1">
+<![CDATA[
+newFuncRoot:4 %write_ln115 = write void @_ssdm_op_Write.axis.volatile.i168P0A.i21P0A.i21P0A.i1P0A, i168 %layer12_out_V_data_V, i21 %layer12_out_V_keep_V, i21 %layer12_out_V_strb_V, i1 %layer12_out_V_last_V, i168 %packed_data, i21 2097151, i21 0, i1 1
+
+]]></Node>
+<StgValue><ssdm name="write_ln115"/></StgValue>
+</operation>
+
+<operation id="9" st_id="2" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="11" bw="0">
+<![CDATA[
+newFuncRoot:5 %ret_ln0 = ret
+
+]]></Node>
+<StgValue><ssdm name="ret_ln0"/></StgValue>
+</operation>
+</state>
+</state_list>
+
+
+<ports>
+</ports>
+
+
+<dataflows>
+</dataflows>
+
+
+</stg>
