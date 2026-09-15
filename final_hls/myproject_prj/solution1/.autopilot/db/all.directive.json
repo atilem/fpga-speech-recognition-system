@@ -1,0 +1,23 @@
+[
+  {
+    "functionLabel": "",
+    "functionName": "myproject",
+    "id": 0,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "",
+    "pragma": {
+      "name": "TOP",
+      "option": [
+        {
+          "name": "name",
+          "value": "myproject"
+        }
+      ]
+    },
+    "slx": false,
+    "sourceFile": "C:/Users/Melita/Desktop/dodov_mod/final_hls/build_prj.tcl",
+    "sourceLine": 169,
+    "success": true
+  }
+]

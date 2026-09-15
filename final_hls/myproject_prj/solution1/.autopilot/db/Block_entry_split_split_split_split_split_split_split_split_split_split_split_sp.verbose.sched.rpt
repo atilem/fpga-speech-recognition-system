@@ -1,0 +1,120 @@
+
+
+================================================================
+== Vitis HLS Report for 'Block_entry_split_split_split_split_split_split_split_split_split_split_split_sp'
+================================================================
+* Date:           Sun Aug 30 16:00:21 2026
+
+* Version:        2024.1 (Build 5069499 on May 21 2024)
+* Project:        myproject_prj
+* Solution:       solution1 (Vivado IP Flow Target)
+* Product family: zynq
+* Target device:  xc7z020-clg400-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  |  20.00 ns|  5.401 ns|     5.40 ns|
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+-----------+-----------+-----+-----+---------+
+    |  Latency (cycles) |   Latency (absolute)  |  Interval | Pipeline|
+    |   min   |   max   |    min    |    max    | min | max |   Type  |
+    +---------+---------+-----------+-----------+-----+-----+---------+
+    |        1|        1|  20.000 ns|  20.000 ns|    1|    1|       no|
+    +---------+---------+-----------+-----------+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        N/A
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 0
+ResetActiveHigh: 1
+IsCombinational: 2
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 0
+HasVarLatency: 1
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 2
+* Pipeline : 0
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 2 
+2 --> 
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 5.40>
+ST_1 : Operation 3 [1/1] (3.63ns)   --->   "%packed_data = read i168 @_ssdm_op_Read.ap_fifo.volatile.i168P0A, i168 %local_output" [firmware/myproject.cpp:97]   --->   Operation 3 'read' 'packed_data' <Predicate = true> <Delay = 3.63> <CoreInst = "FIFO_SRL">   --->   Core 80 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 3.63> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 168> <Depth = 2> <FIFO>
+ST_1 : Operation 4 [2/2] (1.76ns)   --->   "%write_ln115 = write void @_ssdm_op_Write.axis.volatile.i168P0A.i21P0A.i21P0A.i1P0A, i168 %layer12_out_V_data_V, i21 %layer12_out_V_keep_V, i21 %layer12_out_V_strb_V, i1 %layer12_out_V_last_V, i168 %packed_data, i21 2097151, i21 0, i1 1" [firmware/myproject.cpp:115]   --->   Operation 4 'write' 'write_ln115' <Predicate = true> <Delay = 1.76> <CoreInst = "regslice">   --->   Core 136 'regslice' <Latency = 0> <II = 1> <Delay = 1.93> <Adapter> <Opcode : 'read' 'write'>
+
+State 2 <SV = 1> <Delay = 1.76>
+ST_2 : Operation 5 [1/1] (0.00ns)   --->   "%specaxissidechannel_ln0 = specaxissidechannel void @_ssdm_op_SpecAXISSideChannel, i168 %layer12_out_V_data_V, i21 %layer12_out_V_keep_V, i21 %layer12_out_V_strb_V, i1 0, i1 %layer12_out_V_last_V, i1 0, i1 0, void @empty_14"   --->   Operation 5 'specaxissidechannel' 'specaxissidechannel_ln0' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 6 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i168 %local_output, void @empty_6, i32 0, i32 0, void @empty_5, i32 0, i32 0, void @empty_5, void @empty_5, void @empty_5, i32 0, i32 0, i32 0, i32 0, void @empty_5, void @empty_5, i32 4294967295, i32 0, i32 0"   --->   Operation 6 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 7 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i1 %layer12_out_V_last_V, i21 %layer12_out_V_strb_V, i21 %layer12_out_V_keep_V, i168 %layer12_out_V_data_V, void @empty_13, i32 1, i32 1, void @empty_1, i32 0, i32 0, void @empty_5, void @empty_5, void @empty_5, i32 0, i32 0, i32 0, i32 0, void @empty_5, void @empty_5, i32 4294967295, i32 0, i32 0"   --->   Operation 7 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 8 [1/2] (1.76ns)   --->   "%write_ln115 = write void @_ssdm_op_Write.axis.volatile.i168P0A.i21P0A.i21P0A.i1P0A, i168 %layer12_out_V_data_V, i21 %layer12_out_V_keep_V, i21 %layer12_out_V_strb_V, i1 %layer12_out_V_last_V, i168 %packed_data, i21 2097151, i21 0, i1 1" [firmware/myproject.cpp:115]   --->   Operation 8 'write' 'write_ln115' <Predicate = true> <Delay = 1.76> <CoreInst = "regslice">   --->   Core 136 'regslice' <Latency = 0> <II = 1> <Delay = 1.93> <Adapter> <Opcode : 'read' 'write'>
+ST_2 : Operation 9 [1/1] (0.00ns)   --->   "%ret_ln0 = ret"   --->   Operation 9 'ret' 'ret_ln0' <Predicate = true> <Delay = 0.00>
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 20.000ns, clock uncertainty: 5.400ns.
+
+ <State 1>: 5.401ns
+The critical path consists of the following:
+	fifo read operation ('packed_data', firmware/myproject.cpp:97) on port 'local_output' (firmware/myproject.cpp:97) [9]  (3.634 ns)
+	axis write operation ('write_ln115', firmware/myproject.cpp:115) on port 'layer12_out_V_data_V' (firmware/myproject.cpp:115) [10]  (1.767 ns)
+
+ <State 2>: 1.767ns
+The critical path consists of the following:
+	axis write operation ('write_ln115', firmware/myproject.cpp:115) on port 'layer12_out_V_data_V' (firmware/myproject.cpp:115) [10]  (1.767 ns)
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+	State 2
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

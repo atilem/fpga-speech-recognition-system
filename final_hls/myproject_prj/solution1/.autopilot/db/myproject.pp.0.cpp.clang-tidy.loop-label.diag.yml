@@ -1,0 +1,1270 @@
+---
+MainSourceFile:  'C:/Users/Melita/Desktop/dodov_mod/final_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp'
+Diagnostics:     
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1223_1:  '
+    FileOffset:      1223
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\ap_int_base.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          773064
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1223_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_676_1:  '
+    FileOffset:      676
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\ap_int_ref.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          1000850
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_676_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_690_1:  '
+    FileOffset:      690
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\ap_int_ref.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          1001318
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_690_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_704_1:  '
+    FileOffset:      704
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\ap_int_ref.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          1001787
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_704_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1247_1:  '
+    FileOffset:      1247
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\ap_fixed_base.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          1285279
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1247_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_27_1:  '
+    FileOffset:      27
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_types.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          1675241
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_27_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_39_1:  '
+    FileOffset:      39
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_types.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          1675479
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_39_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_56_1:  '
+    FileOffset:      56
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_types.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          1675974
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_56_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_265_1:  '
+    FileOffset:      265
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_helpers.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2260070
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_265_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_275_1:  '
+    FileOffset:      275
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_helpers.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2260457
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_275_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_286_1:  '
+    FileOffset:      286
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_helpers.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2260792
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_286_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_293_1:  '
+    FileOffset:      293
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_helpers.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2261015
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_293_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_295_2:  '
+    FileOffset:      295
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_helpers.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2261110
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_295_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_307_1:  '
+    FileOffset:      307
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_helpers.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2261474
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_307_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_309_2:  '
+    FileOffset:      309
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_helpers.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2261556
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_309_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_324_1:  '
+    FileOffset:      324
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_helpers.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2261899
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_324_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_344_1:  '
+    FileOffset:      344
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_helpers.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2262352
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_344_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_345_2:  '
+    FileOffset:      345
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_helpers.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2262397
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_345_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_360_1:  '
+    FileOffset:      360
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_helpers.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2262806
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_360_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_367_1:  '
+    FileOffset:      367
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_helpers.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2263019
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_367_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_136_1:  '
+    FileOffset:      136
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_conv1d_latency.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2272544
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_136_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_137_2:  '
+    FileOffset:      137
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_conv1d_latency.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2272628
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_137_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_158_3:  '
+    FileOffset:      158
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_conv1d_latency.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2273170
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_158_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_159_4:  '
+    FileOffset:      159
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_conv1d_latency.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2273254
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_159_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_31_1:  '
+    FileOffset:      31
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2277415
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_31_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_43_1:  '
+    FileOffset:      43
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2277668
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_43_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_57_1:  '
+    FileOffset:      57
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2278029
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_57_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_84_1:  '
+    FileOffset:      84
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2278845
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_84_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_114_1:  '
+    FileOffset:      114
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2279506
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_114_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_151_1:  '
+    FileOffset:      151
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2280651
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_151_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_167_1:  '
+    FileOffset:      167
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2281115
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_167_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_200_1:  '
+    FileOffset:      200
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2282047
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_200_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_213_2:  '
+    FileOffset:      213
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2282582
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_213_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_246_1:  '
+    FileOffset:      246
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2283445
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_246_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_255_2:  '
+    FileOffset:      255
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2283715
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_255_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_268_3:  '
+    FileOffset:      268
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2284278
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_268_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_275_1:  '
+    FileOffset:      275
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2284515
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_275_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_288_1:  '
+    FileOffset:      288
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2284875
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_288_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_325_1:  '
+    FileOffset:      325
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2285832
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_325_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_330_2:  '
+    FileOffset:      330
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2285952
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_330_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_331_3:  '
+    FileOffset:      331
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2286009
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_331_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_348_4:  '
+    FileOffset:      348
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2286609
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_348_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_361_1:  '
+    FileOffset:      361
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2287117
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_361_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_369_2:  '
+    FileOffset:      369
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2287261
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_369_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_405_1:  '
+    FileOffset:      405
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2288456
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_405_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_407_2:  '
+    FileOffset:      407
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2288525
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_407_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_409_3:  '
+    FileOffset:      409
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2288594
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_409_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_414_4:  '
+    FileOffset:      414
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2288850
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_414_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_427_1:  '
+    FileOffset:      427
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2289164
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_427_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_457_1:  '
+    FileOffset:      457
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2289801
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_457_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_484_1:  '
+    FileOffset:      484
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2290637
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_484_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_498_1:  '
+    FileOffset:      498
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2290979
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_498_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_514_1:  '
+    FileOffset:      514
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2291437
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_514_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_532_1:  '
+    FileOffset:      532
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2291907
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_532_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_549_1:  '
+    FileOffset:      549
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2292310
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_549_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_566_1:  '
+    FileOffset:      566
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2292705
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_566_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_596_1:  '
+    FileOffset:      596
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2293371
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_596_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_615_1:  '
+    FileOffset:      615
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2293945
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_615_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_645_1:  '
+    FileOffset:      645
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2294611
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_645_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_664_1:  '
+    FileOffset:      664
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2295165
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_664_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_694_1:  '
+    FileOffset:      694
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2295814
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_694_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_721_1:  '
+    FileOffset:      721
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2296652
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_721_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_749_1:  '
+    FileOffset:      749
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2297336
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_749_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_779_1:  '
+    FileOffset:      779
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2298021
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_779_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_808_1:  '
+    FileOffset:      808
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2298861
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_808_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_828_1:  '
+    FileOffset:      828
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2299280
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_828_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_229_1:  '
+    FileOffset:      229
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_stream.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2305334
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_229_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_236_2:  '
+    FileOffset:      236
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_stream.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2305474
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_236_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_245_3:  '
+    FileOffset:      245
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_stream.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2305739
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_245_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_254_4:  '
+    FileOffset:      254
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_stream.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2305933
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_254_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_258_5:  '
+    FileOffset:      258
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_stream.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2306026
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_258_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_269_6:  '
+    FileOffset:      269
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_stream.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2306352
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_269_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_273_7:  '
+    FileOffset:      273
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_stream.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2306462
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_273_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_297_1:  '
+    FileOffset:      297
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_stream.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2307428
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_297_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_301_2:  '
+    FileOffset:      301
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_stream.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2307514
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_301_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_320_1:  '
+    FileOffset:      320
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_stream.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2308190
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_320_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_211_1:  '
+    FileOffset:      211
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_activation_stream.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2314474
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_211_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_220_2:  '
+    FileOffset:      220
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_activation_stream.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2314752
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_220_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_325_1:  '
+    FileOffset:      325
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_activation_stream.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2317973
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_325_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_330_2:  '
+    FileOffset:      330
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_activation_stream.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2318115
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_330_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_338_3:  '
+    FileOffset:      338
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_activation_stream.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2318319
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_338_3: '
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Resource with core_name: ROM_nP_BRAM pragma is ignored, because this core doesn''t exist at all '
+    FileOffset:      33
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_dense_resource.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Resource with core_name: ROM_nP_BRAM pragma is ignored, because this core doesn''t exist at all '
+    FileOffset:      107
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_dense_resource.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Resource with core_name: ROM_nP_BRAM pragma is ignored, because this core doesn''t exist at all '
+    FileOffset:      189
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_dense_resource.h'
+    Replacements:    
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_88_1:  '
+    FileOffset:      88
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_batchnorm.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2346722
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_88_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_108_1:  '
+    FileOffset:      108
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_batchnorm.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2347379
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_108_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_64_1:  '
+    FileOffset:      64
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\ap_shift_reg.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2361987
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_64_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_71_1:  '
+    FileOffset:      71
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\ap_shift_reg.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2362191
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_71_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_14_1:  '
+    FileOffset:      14
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_dense_compressed.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2379340
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_14_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_74_1:  '
+    FileOffset:      74
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_dense_compressed.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2381211
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_74_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_20_1:  '
+    FileOffset:      20
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_padding.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2386070
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_20_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_21_2:  '
+    FileOffset:      21
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_padding.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2386123
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_21_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_25_3:  '
+    FileOffset:      25
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_padding.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2386215
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_25_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_29_4:  '
+    FileOffset:      29
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_padding.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2386324
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_29_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_39_1:  '
+    FileOffset:      39
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_padding.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2386619
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_39_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_40_2:  '
+    FileOffset:      40
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_padding.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2386674
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_40_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_45_3:  '
+    FileOffset:      45
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_padding.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2386766
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_45_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_46_4:  '
+    FileOffset:      46
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_padding.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2386821
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_46_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_51_5:  '
+    FileOffset:      51
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_padding.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2386930
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_51_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_52_6:  '
+    FileOffset:      52
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_padding.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2386986
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_52_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_75_1:  '
+    FileOffset:      75
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_padding.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2387741
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_75_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_77_2:  '
+    FileOffset:      77
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_padding.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2387795
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_77_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_78_3:  '
+    FileOffset:      78
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_padding.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2387853
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_78_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_83_4:  '
+    FileOffset:      83
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_padding.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2387964
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_83_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_84_5:  '
+    FileOffset:      84
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_padding.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2388024
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_84_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_87_6:  '
+    FileOffset:      87
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_padding.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2388127
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_87_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_90_7:  '
+    FileOffset:      90
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_padding.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2388247
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_90_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_95_8:  '
+    FileOffset:      95
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_padding.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2388358
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_95_8: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_96_9:  '
+    FileOffset:      96
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_padding.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2388419
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_96_9: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_108_1:  '
+    FileOffset:      108
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_padding.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2388795
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_108_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_109_2:  '
+    FileOffset:      109
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_padding.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2388849
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_109_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_110_3:  '
+    FileOffset:      110
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_padding.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2388909
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_110_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_116_4:  '
+    FileOffset:      116
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_padding.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2389019
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_116_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_117_5:  '
+    FileOffset:      117
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_padding.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2389075
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_117_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_118_6:  '
+    FileOffset:      118
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_padding.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2389134
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_118_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_122_7:  '
+    FileOffset:      122
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_padding.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2389241
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_122_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_123_8:  '
+    FileOffset:      123
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_padding.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2389300
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_123_8: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_127_9:  '
+    FileOffset:      127
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_padding.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2389424
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_127_9: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_128_10:  '
+    FileOffset:      128
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_padding.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2389484
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_128_10: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_134_11:  '
+    FileOffset:      134
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_padding.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2389594
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_134_11: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_135_12:  '
+    FileOffset:      135
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_padding.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2389651
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_135_12: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_136_13:  '
+    FileOffset:      136
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_padding.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2389711
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_136_13: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_11_1:  '
+    FileOffset:      11
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_padding_stream.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2390221
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_11_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_22_1:  '
+    FileOffset:      22
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_padding_stream.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2390538
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_22_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_13_1:  '
+    FileOffset:      13
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_pooling.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2392307
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_13_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_22_1:  '
+    FileOffset:      22
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_pooling.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2392506
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_22_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_97_1:  '
+    FileOffset:      97
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_pooling.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2394434
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_97_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_99_2:  '
+    FileOffset:      99
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_pooling.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2394491
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_99_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_104_3:  '
+    FileOffset:      104
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_pooling.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2394716
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_104_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_132_1:  '
+    FileOffset:      132
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_pooling.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2396033
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_132_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_135_2:  '
+    FileOffset:      135
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_pooling.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2396176
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_135_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_190_1:  '
+    FileOffset:      190
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_pooling.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2398453
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_190_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_192_2:  '
+    FileOffset:      192
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_pooling.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2398510
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_192_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_194_3:  '
+    FileOffset:      194
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_pooling.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2398604
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_194_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_201_4:  '
+    FileOffset:      201
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_pooling.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2398863
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_201_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_203_5:  '
+    FileOffset:      203
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_pooling.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2398937
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_203_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_244_1:  '
+    FileOffset:      244
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_pooling.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2401302
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_244_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_246_2:  '
+    FileOffset:      246
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_pooling.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2401359
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_246_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_248_3:  '
+    FileOffset:      248
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_pooling.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2401453
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_248_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_254_4:  '
+    FileOffset:      254
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_pooling.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2401709
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_254_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_256_5:  '
+    FileOffset:      256
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\nnet_utils\nnet_pooling.h'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2401785
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_256_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_102_1:  '
+    FileOffset:      102
+    FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\firmware\myproject.cpp'
+    Replacements:    
+      - FilePath:        'C:\Users\Melita\Desktop\dodov_mod\final_hls\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2528078
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_102_1: '
+...

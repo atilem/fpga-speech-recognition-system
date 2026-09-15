@@ -1,0 +1,57 @@
+<profile>
+
+<section name = "Vitis HLS Report for 'myproject'" level="0">
+<item name = "Date">Sun Aug 30 16:00:21 2026
+</item>
+<item name = "Version">2024.1 (Build 5069499 on May 21 2024)</item>
+<item name = "Project">myproject_prj</item>
+<item name = "Solution">solution1 (Vivado IP Flow Target)</item>
+<item name = "Product family">zynq</item>
+<item name = "Target device">xc7z020-clg400-1</item>
+</section>
+
+<section name = "Performance Estimates" level="0">
+<item name = "Timing">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="4">Clock, Target, Estimated, Uncertainty</keys>
+<column name="ap_clk">20.00 ns, 14.552 ns, 5.40 ns</column>
+</table>
+</item>
+</section>
+</item>
+<item name = "Latency">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="8">, min, max, min, max, min, max, Type</keys>
+<column name="">630202, 632141, 12.604 ms, 12.643 ms, 16894, 632126, dataflow</column>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="0">
+<keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
+<column name="grp_zeropad2d_cl_array_array_ap_fixed_20_10_5_3_0_1u_config13_s_fu_1006">zeropad2d_cl_array_array_ap_fixed_20_10_5_3_0_1u_config13_s, 4387, 4387, 87.740 us, 87.740 us, 4387, 4387, no</column>
+<column name="grp_conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_18_8_5_3_0_12u_config2_s_fu_1013">conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_18_8_5_3_0_12u_config2_s, 16893, 481423, 0.338 ms, 9.628 ms, 16893, 481423, no</column>
+<column name="grp_normalize_array_ap_fixed_12u_array_ap_fixed_39_19_5_3_0_12u_config3_s_fu_1053">normalize_array_ap_fixed_12u_array_ap_fixed_39_19_5_3_0_12u_config3_s, 1022, 1022, 20.440 us, 20.440 us, 1020, 1020, loop auto-rewind stp(delay=0 clock cycles(s))</column>
+<column name="grp_relu_array_ap_fixed_12u_array_ap_fixed_20_10_5_3_0_12u_relu_config4_s_fu_1059">relu_array_ap_fixed_12u_array_ap_fixed_20_10_5_3_0_12u_relu_config4_s, 1021, 1021, 20.420 us, 20.420 us, 1020, 1020, loop auto-rewind stp(delay=0 clock cycles(s))</column>
+<column name="grp_pooling2d_cl_array_array_ap_fixed_20_10_5_3_0_12u_config5_s_fu_1065">pooling2d_cl_array_array_ap_fixed_20_10_5_3_0_12u_config5_s, 2042, 2042, 40.840 us, 40.840 us, 2040, 2040, loop auto-rewind stp(delay=0 clock cycles(s))</column>
+<column name="grp_zeropad2d_cl_array_array_ap_fixed_20_10_5_3_0_12u_config14_s_fu_1199">zeropad2d_cl_array_array_ap_fixed_20_10_5_3_0_12u_config14_s, 337, 337, 6.740 us, 6.740 us, 337, 337, no</column>
+<column name="grp_conv_2d_cl_array_ap_fixed_12u_array_ap_fixed_18_8_5_3_0_18u_config6_s_fu_1205">conv_2d_cl_array_ap_fixed_12u_array_ap_fixed_18_8_5_3_0_18u_config6_s, 1297, 632125, 25.940 us, 12.643 ms, 1297, 632125, no</column>
+<column name="grp_normalize_array_ap_fixed_18u_array_ap_fixed_39_19_5_3_0_18u_config7_s_fu_1487">normalize_array_ap_fixed_18u_array_ap_fixed_39_19_5_3_0_18u_config7_s, 252, 252, 5.040 us, 5.040 us, 250, 250, loop auto-rewind stp(delay=0 clock cycles(s))</column>
+<column name="grp_relu_array_ap_fixed_18u_array_ap_fixed_20_10_5_3_0_18u_relu_config8_s_fu_1493">relu_array_ap_fixed_18u_array_ap_fixed_20_10_5_3_0_18u_relu_config8_s, 251, 251, 5.020 us, 5.020 us, 250, 250, loop auto-rewind stp(delay=0 clock cycles(s))</column>
+<column name="grp_pooling2d_cl_array_array_ap_fixed_20_10_5_3_0_18u_config9_s_fu_1499">pooling2d_cl_array_array_ap_fixed_20_10_5_3_0_18u_config9_s, 503, 503, 10.060 us, 10.060 us, 500, 500, loop auto-rewind stp(delay=0 clock cycles(s))</column>
+<column name="grp_dense_array_ap_fixed_18u_array_ap_fixed_24_12_5_3_0_7u_config12_s_fu_1909">dense_array_ap_fixed_18u_array_ap_fixed_24_12_5_3_0_7u_config12_s, 3180, 3181, 63.600 us, 63.620 us, 3180, 3181, no</column>
+<column name="grp_Block_entry_split_split_split_split_split_split_split_split_split_split_split_sp_fu_1919">Block_entry_split_split_split_split_split_split_split_split_split_split_split_sp, 1, 1, 20.000 ns, 20.000 ns, 1, 1, no</column>
+</table>
+</item>
+<item name = "Loop"><table name="" hasTotal="0">
+<keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
+</table>
+</item>
+</section>
+</item>
+</section>
+</item>
+</section>
+</profile>

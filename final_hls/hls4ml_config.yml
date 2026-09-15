@@ -1,0 +1,123 @@
+Backend: Vitis
+ClockPeriod: 20
+ClockUncertainty: 27%
+HLSConfig:
+  LayerName:
+    activation:
+      Precision:
+        result: auto
+        table: fixed<18,8,TRN,WRAP,0>
+      ReuseFactor: 1
+      TableSize: 1024
+      Trace: false
+    activation_1:
+      Precision:
+        result: auto
+        table: fixed<18,8,TRN,WRAP,0>
+      ReuseFactor: 1
+      TableSize: 1024
+      Trace: false
+    batch_normalization:
+      Precision:
+        bias: auto
+        result: auto
+        scale: auto
+      ReuseFactor: 1
+      Trace: false
+    batch_normalization_1:
+      Precision:
+        bias: auto
+        result: auto
+        scale: auto
+      ReuseFactor: 1
+      Trace: false
+    conv2d:
+      ConvImplementation: LineBuffer
+      ParallelizationFactor: 1
+      Precision:
+        accum: ap_fixed<26,12>
+        bias: ap_fixed<18,8>
+        result: ap_fixed<18,8>
+        weight: ap_fixed<18,8>
+      ReuseFactor: 108
+      Strategy: Resource
+      Trace: false
+    conv2d_1:
+      ConvImplementation: LineBuffer
+      ParallelizationFactor: 1
+      Precision:
+        accum: ap_fixed<26,12>
+        bias: ap_fixed<18,8>
+        result: ap_fixed<18,8>
+        weight: ap_fixed<18,8>
+      ReuseFactor: 2000
+      Strategy: Resource
+      Trace: false
+    dropout:
+      Precision:
+        result: auto
+        table: fixed<18,8,TRN,WRAP,0>
+      ReuseFactor: 1
+      TableSize: 1024
+      Trace: false
+    flatten:
+      Precision:
+        result: auto
+      Trace: false
+    max_pooling2d:
+      ConvImplementation: LineBuffer
+      Precision:
+        accum: auto
+        result: auto
+      ReuseFactor: 1
+      Trace: false
+    max_pooling2d_1:
+      ConvImplementation: LineBuffer
+      Precision:
+        accum: auto
+        result: auto
+      ReuseFactor: 1
+      Trace: false
+    mfcc_input:
+      Precision:
+        result: ap_fixed<20,10>
+      Trace: false
+    output:
+      Precision:
+        accum: ap_fixed<26,12>
+        bias: ap_fixed<18,8>
+        result: ap_fixed<24,12>
+        weight: ap_fixed<18,8>
+      ReuseFactor: 3150
+      Strategy: Resource
+      Trace: false
+  Model:
+    BitExact: null
+    BramFactor: 1000000000
+    Precision: ap_fixed<20,10>
+    ReuseFactor: 1
+    Strategy: Latency
+    TraceOutput: false
+IOType: io_stream
+InputData: null
+InputShapes:
+  mfcc_input:
+  - 40
+  - 101
+  - 1
+KerasModel: !keras_model 'final_hls/keras_model.keras'
+OutputDir: final_hls
+OutputPredictions: null
+OutputShapes:
+  layer12_out:
+  - 7
+Part: xc7z020clg400-1
+ProjectName: myproject
+Stamp: 01eb5f03
+Version: 1.0.0
+WriterConfig:
+  Namespace: null
+  TBOutputStream: both
+  WriteEmulationConstants: false
+  WriteTar: false
+  WriteWeightsTxt: true

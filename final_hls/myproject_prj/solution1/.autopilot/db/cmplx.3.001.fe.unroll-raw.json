@@ -1,0 +1,465 @@
+{
+  "0": {
+    "basicblocks": 4,
+    "calls": "25 30 6 8 29 11 12 4 17 27 3 10 10 10 10 10 10 10",
+    "file": "myproject.cpp",
+    "fileloc": 8,
+    "instructions": 201,
+    "loads": {
+      "L": 7
+    },
+    "name": "myproject",
+    "stores": {
+      "L": 8
+    },
+    "total_instructions": 11309
+  },
+  "1": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "nnet_types.h",
+    "fileloc": 17,
+    "instructions": 2,
+    "name": "operator[]",
+    "total_instructions": 2
+  },
+  "10": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "nnet_types.h",
+    "fileloc": 17,
+    "instructions": 2,
+    "name": "operator[]",
+    "total_instructions": 2
+  },
+  "11": {
+    "basicblocks": 24,
+    "calls": "32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32",
+    "file": "nnet_padding_stream.h",
+    "fileloc": 48,
+    "instructions": 214,
+    "loads": {
+      "L": 24
+    },
+    "name": "zeropad2d_cl<nnet::array<ap_fixed<20, 10, AP_TRN, AP_WRAP, 0>, 12>, nnet::array<ap_fixed<20, 10, AP_TRN, AP_WRAP, 0>, 12>, config14>",
+    "stores": {
+      "L": 24
+    },
+    "total_instructions": 262
+  },
+  "12": {
+    "basicblocks": 6,
+    "calls": "7",
+    "file": "nnet_conv2d_stream.h",
+    "fileloc": 67,
+    "instructions": 61,
+    "name": "conv_2d_cl<nnet::array<ap_fixed<20, 10, AP_TRN, AP_WRAP, 0>, 12>, nnet::array<ap_fixed<18, 8, AP_TRN, AP_WRAP, 0>, 18>, config6>",
+    "stores": {
+      "L": 12
+    },
+    "total_instructions": 1459
+  },
+  "13": {
+    "basicblocks": 41,
+    "calls": "18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18",
+    "file": "nnet_conv_stream.h",
+    "fileloc": 215,
+    "instructions": 673,
+    "loads": {
+      "G": 144,
+      "L": 72
+    },
+    "name": "shift_line_buffer<nnet::array<ap_fixed<20, 10, AP_TRN, AP_WRAP, 0>, 18>, config9>",
+    "stores": {
+      "G": 180,
+      "L": 36
+    },
+    "total_instructions": 709
+  },
+  "14": {
+    "basicblocks": 26,
+    "calls": "31 31 31 31 31 31 31 31 31 31 31 31",
+    "file": "nnet_conv_stream.h",
+    "fileloc": 215,
+    "instructions": 304,
+    "loads": {
+      "G": 24,
+      "L": 48
+    },
+    "name": "shift_line_buffer<nnet::array<ap_fixed<20, 10, AP_TRN, AP_WRAP, 0>, 12>, config5>",
+    "stores": {
+      "G": 48,
+      "L": 24
+    },
+    "total_instructions": 328
+  },
+  "15": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "nnet_types.h",
+    "fileloc": 17,
+    "instructions": 2,
+    "name": "operator[]",
+    "total_instructions": 2
+  },
+  "16": {
+    "basicblocks": 32,
+    "calls": "31 31 31 31 31 31 31 31 31 31 31 31",
+    "file": "nnet_conv_stream.h",
+    "fileloc": 215,
+    "instructions": 538,
+    "loads": {
+      "G": 72,
+      "L": 72
+    },
+    "name": "shift_line_buffer<nnet::array<ap_fixed<20, 10, AP_TRN, AP_WRAP, 0>, 12>, config6>",
+    "stores": {
+      "G": 108,
+      "L": 36
+    },
+    "total_instructions": 562
+  },
+  "17": {
+    "basicblocks": 204,
+    "calls": "22 22 21 21 22 21 22 21 22 21 22 21 22 21 22 21 22 21 22 21 22 21 22 21 22 21 22 21 22 21 22 21 22 21 22 21 22 21 22 21 22 21 22 21 22 21 22 21 22 21 22 21 22 21 22 21 22 21 22 21 22 21 22 21 22 21 22 21 22 21 22 21",
+    "file": "nnet_activation_stream.h",
+    "fileloc": 39,
+    "instructions": 707,
+    "loads": {
+      "L": 90
+    },
+    "name": "relu<nnet::array<ap_fixed<39, 19, AP_TRN, AP_WRAP, 0>, 18>, nnet::array<ap_fixed<20, 10, AP_TRN, AP_WRAP, 0>, 18>, relu_config8>",
+    "stores": {
+      "L": 54
+    },
+    "total_instructions": 851
+  },
+  "18": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "nnet_types.h",
+    "fileloc": 19,
+    "instructions": 2,
+    "name": "operator[]",
+    "total_instructions": 2
+  },
+  "19": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "nnet_types.h",
+    "fileloc": 17,
+    "instructions": 2,
+    "name": "operator[]",
+    "total_instructions": 2
+  },
+  "2": {
+    "basicblocks": 5,
+    "calls": "",
+    "file": "nnet_mult.h",
+    "fileloc": 110,
+    "instructions": 13,
+    "name": "cast<ap_fixed<20, 10, AP_TRN, AP_WRAP, 0>, ap_fixed<24, 12, AP_TRN, AP_WRAP, 0>, config12>",
+    "stores": {
+      "L": 3
+    },
+    "total_instructions": 13
+  },
+  "20": {
+    "basicblocks": 91,
+    "calls": "9 9 9 9 9 9 9 9 9 9 9 9",
+    "file": "nnet_dense_resource.h",
+    "fileloc": 87,
+    "instructions": 266,
+    "loads": {
+      "G": 3,
+      "L": 27
+    },
+    "name": "dense_resource_rf_gt_nin_rem0<ap_fixed<20, 10, AP_TRN, AP_WRAP, 0>, ap_fixed<18, 8, AP_TRN, AP_WRAP, 0>, config2_mult>",
+    "stores": {
+      "L": 26
+    },
+    "total_instructions": 422
+  },
+  "21": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "nnet_types.h",
+    "fileloc": 17,
+    "instructions": 2,
+    "name": "operator[]",
+    "total_instructions": 2
+  },
+  "22": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "nnet_types.h",
+    "fileloc": 17,
+    "instructions": 2,
+    "name": "operator[]",
+    "total_instructions": 2
+  },
+  "23": {
+    "basicblocks": 115,
+    "calls": "33 33 33 33 33 33 33 33 33 33 33 33 33 33 33 33 33 33",
+    "file": "nnet_dense_resource.h",
+    "fileloc": 87,
+    "instructions": 350,
+    "loads": {
+      "G": 3,
+      "L": 39
+    },
+    "name": "dense_resource_rf_gt_nin_rem0<ap_fixed<20, 10, AP_TRN, AP_WRAP, 0>, ap_fixed<18, 8, AP_TRN, AP_WRAP, 0>, config6_mult>",
+    "stores": {
+      "L": 38
+    },
+    "total_instructions": 584
+  },
+  "24": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "nnet_types.h",
+    "fileloc": 19,
+    "instructions": 2,
+    "name": "operator[]",
+    "total_instructions": 2
+  },
+  "25": {
+    "basicblocks": 22,
+    "calls": "19 19",
+    "file": "nnet_padding_stream.h",
+    "fileloc": 48,
+    "instructions": 72,
+    "loads": {
+      "L": 2
+    },
+    "name": "zeropad2d_cl<nnet::array<ap_fixed<20, 10, AP_TRN, AP_WRAP, 0>, 1>, nnet::array<ap_fixed<20, 10, AP_TRN, AP_WRAP, 0>, 1>, config13>",
+    "stores": {
+      "L": 2
+    },
+    "total_instructions": 76
+  },
+  "26": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "nnet_types.h",
+    "fileloc": 17,
+    "instructions": 2,
+    "name": "operator[]",
+    "total_instructions": 2
+  },
+  "27": {
+    "basicblocks": 530,
+    "calls": "13",
+    "file": "nnet_pooling_stream.h",
+    "fileloc": 96,
+    "instructions": 3497,
+    "loads": {
+      "G": 194,
+      "L": 684
+    },
+    "name": "pooling2d_cl<nnet::array<ap_fixed<20, 10, AP_TRN, AP_WRAP, 0>, 18>, nnet::array<ap_fixed<20, 10, AP_TRN, AP_WRAP, 0>, 18>, config9>",
+    "stores": {
+      "G": 8,
+      "L": 540
+    },
+    "total_instructions": 4206
+  },
+  "28": {
+    "basicblocks": 21,
+    "calls": "5 20 26 26 26 26 26 26 26 26 26 26 26 26",
+    "file": "nnet_conv_stream.h",
+    "fileloc": 251,
+    "instructions": 170,
+    "loads": {
+      "G": 14,
+      "L": 24
+    },
+    "name": "compute_output_buffer_2d<nnet::array<ap_fixed<20, 10, AP_TRN, AP_WRAP, 0>, 1>, nnet::array<ap_fixed<18, 8, AP_TRN, AP_WRAP, 0>, 12>, config2>",
+    "stores": {
+      "G": 8,
+      "L": 12
+    },
+    "total_instructions": 683
+  },
+  "29": {
+    "basicblocks": 146,
+    "calls": "14",
+    "file": "nnet_pooling_stream.h",
+    "fileloc": 96,
+    "instructions": 971,
+    "loads": {
+      "G": 62,
+      "L": 168
+    },
+    "name": "pooling2d_cl<nnet::array<ap_fixed<20, 10, AP_TRN, AP_WRAP, 0>, 12>, nnet::array<ap_fixed<20, 10, AP_TRN, AP_WRAP, 0>, 12>, config5>",
+    "stores": {
+      "G": 8,
+      "L": 144
+    },
+    "total_instructions": 1299
+  },
+  "3": {
+    "basicblocks": 5,
+    "calls": "34",
+    "file": "nnet_dense_stream.h",
+    "fileloc": 82,
+    "instructions": 240,
+    "loads": {
+      "L": 32
+    },
+    "name": "dense<nnet::array<ap_fixed<20, 10, AP_TRN, AP_WRAP, 0>, 18>, nnet::array<ap_fixed<24, 12, AP_TRN, AP_WRAP, 0>, 7>, config12>",
+    "stores": {
+      "L": 43
+    },
+    "total_instructions": 527
+  },
+  "30": {
+    "basicblocks": 6,
+    "calls": "28",
+    "file": "nnet_conv2d_stream.h",
+    "fileloc": 67,
+    "instructions": 28,
+    "name": "conv_2d_cl<nnet::array<ap_fixed<20, 10, AP_TRN, AP_WRAP, 0>, 1>, nnet::array<ap_fixed<18, 8, AP_TRN, AP_WRAP, 0>, 12>, config2>",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 711
+  },
+  "31": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "nnet_types.h",
+    "fileloc": 19,
+    "instructions": 2,
+    "name": "operator[]",
+    "total_instructions": 2
+  },
+  "32": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "nnet_types.h",
+    "fileloc": 17,
+    "instructions": 2,
+    "name": "operator[]",
+    "total_instructions": 2
+  },
+  "33": {
+    "basicblocks": 5,
+    "calls": "",
+    "file": "nnet_mult.h",
+    "fileloc": 110,
+    "instructions": 13,
+    "name": "cast<ap_fixed<20, 10, AP_TRN, AP_WRAP, 0>, ap_fixed<18, 8, AP_TRN, AP_WRAP, 0>, config6_mult>",
+    "stores": {
+      "L": 3
+    },
+    "total_instructions": 13
+  },
+  "34": {
+    "basicblocks": 71,
+    "calls": "2 2 2 2 2 2 2",
+    "file": "nnet_dense_resource.h",
+    "fileloc": 87,
+    "instructions": 196,
+    "loads": {
+      "G": 2,
+      "L": 18
+    },
+    "name": "dense_resource_rf_gt_nin_rem0<ap_fixed<20, 10, AP_TRN, AP_WRAP, 0>, ap_fixed<24, 12, AP_TRN, AP_WRAP, 0>, config12>",
+    "stores": {
+      "L": 16
+    },
+    "total_instructions": 287
+  },
+  "4": {
+    "basicblocks": 258,
+    "calls": "1 22 1 22 1 22 1 22 1 22 1 22 1 22 1 22 1 22 1 22 1 22 1 22 1 22 1 22 1 22 1 22 1 22 1 22",
+    "file": "nnet_batchnorm_stream.h",
+    "fileloc": 16,
+    "instructions": 600,
+    "loads": {
+      "L": 36
+    },
+    "name": "normalize<nnet::array<ap_fixed<18, 8, AP_TRN, AP_WRAP, 0>, 18>, nnet::array<ap_fixed<39, 19, AP_TRN, AP_WRAP, 0>, 18>, config7>",
+    "stores": {
+      "L": 36
+    },
+    "total_instructions": 672
+  },
+  "5": {
+    "basicblocks": 21,
+    "calls": "24",
+    "file": "nnet_conv_stream.h",
+    "fileloc": 215,
+    "instructions": 65,
+    "loads": {
+      "G": 6,
+      "L": 6
+    },
+    "name": "shift_line_buffer<nnet::array<ap_fixed<20, 10, AP_TRN, AP_WRAP, 0>, 1>, config2>",
+    "stores": {
+      "G": 9,
+      "L": 3
+    },
+    "total_instructions": 67
+  },
+  "6": {
+    "basicblocks": 174,
+    "calls": "26 15 26 15 26 15 26 15 26 15 26 15 26 15 26 15 26 15 26 15 26 15 26 15",
+    "file": "nnet_batchnorm_stream.h",
+    "fileloc": 16,
+    "instructions": 408,
+    "loads": {
+      "L": 24
+    },
+    "name": "normalize<nnet::array<ap_fixed<18, 8, AP_TRN, AP_WRAP, 0>, 12>, nnet::array<ap_fixed<39, 19, AP_TRN, AP_WRAP, 0>, 12>, config3>",
+    "stores": {
+      "L": 24
+    },
+    "total_instructions": 456
+  },
+  "7": {
+    "basicblocks": 21,
+    "calls": "16 23 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1",
+    "file": "nnet_conv_stream.h",
+    "fileloc": 251,
+    "instructions": 216,
+    "loads": {
+      "G": 14,
+      "L": 36
+    },
+    "name": "compute_output_buffer_2d<nnet::array<ap_fixed<20, 10, AP_TRN, AP_WRAP, 0>, 12>, nnet::array<ap_fixed<18, 8, AP_TRN, AP_WRAP, 0>, 18>, config6>",
+    "stores": {
+      "G": 8,
+      "L": 18
+    },
+    "total_instructions": 1398
+  },
+  "8": {
+    "basicblocks": 138,
+    "calls": "15 15 32 32 15 32 15 32 15 32 15 32 15 32 15 32 15 32 15 32 15 32 15 32 15 32 15 32 15 32 15 32 15 32 15 32 15 32 15 32 15 32 15 32 15 32 15 32",
+    "file": "nnet_activation_stream.h",
+    "fileloc": 39,
+    "instructions": 479,
+    "loads": {
+      "L": 60
+    },
+    "name": "relu<nnet::array<ap_fixed<39, 19, AP_TRN, AP_WRAP, 0>, 12>, nnet::array<ap_fixed<20, 10, AP_TRN, AP_WRAP, 0>, 12>, relu_config4>",
+    "stores": {
+      "L": 36
+    },
+    "total_instructions": 575
+  },
+  "9": {
+    "basicblocks": 5,
+    "calls": "",
+    "file": "nnet_mult.h",
+    "fileloc": 110,
+    "instructions": 13,
+    "name": "cast<ap_fixed<20, 10, AP_TRN, AP_WRAP, 0>, ap_fixed<18, 8, AP_TRN, AP_WRAP, 0>, config2_mult>",
+    "stores": {
+      "L": 3
+    },
+    "total_instructions": 13
+  }
+}
